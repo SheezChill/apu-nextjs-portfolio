@@ -17,7 +17,9 @@ export default function Home() {
         <AchievementsSection />
         <AboutMe />
         <Projects />
-        <h1 className="text-4xl font-semibold mb-8">My Designs</h1>
+        <h1 id="designs" className="text-4xl font-semibold mb-8">
+          My Designs
+        </h1>
         <div className="flex flex-row gap-5 flex-wrap">
           <img
             src="/designs/morgan.webp"

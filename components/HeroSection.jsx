@@ -50,6 +50,12 @@ const HeroSection = () => {
           >
             <span className="text-xl text-white">Projects</span>
           </a>
+          <a
+            href="#designs"
+            className="px-12 mb-4 inline-block py-3 rounded-full mr-4 border-solid border-2 border-gray-600 hover:bg-gray-600"
+          >
+            <span className="text-xl text-white">Designs</span>
+          </a>
         </motion.div>
         <div className="col-span-4 md:col-span-4 place-self-center mt-12 lg:mt-0 pt-0 lg:pt-24">
           <motion.div
